@@ -48,5 +48,4 @@ export default tseslint.config({
   },
 })
 ```
-# 3D-Portfolio
-# 3D-Portfolio
+# Portfolio
