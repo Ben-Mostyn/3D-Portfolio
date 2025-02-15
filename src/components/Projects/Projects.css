@@ -1,0 +1,12 @@
+.projects {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(24, 74, 126, 1);
+}
