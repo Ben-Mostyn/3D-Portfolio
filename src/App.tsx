@@ -1,12 +1,18 @@
 import './App.css'
-import TypescriptLogoScene from './components/TypescriptLogo/TypescriptLogoScene'
+import About from './components/About/About'
+import Contact from './components/Contact/Contact'
+import HomePage from './components/HomePage/HomePage'
+import Projects from './components/Projects/Projects'
+
 
 function App() {
   return (
     <>
-      <div>
-        <TypescriptLogoScene />
-
+      <div className='mainContainer'>
+        <HomePage />
+        <About />
+        <Projects />
+        <Contact />
       </div>
 
     </>

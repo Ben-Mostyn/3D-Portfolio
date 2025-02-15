@@ -1,0 +1,23 @@
+.homePage {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.homePage svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: rotate(180deg);
+}
+
+.homePage h1 {
+    z-index: 1;
+}
