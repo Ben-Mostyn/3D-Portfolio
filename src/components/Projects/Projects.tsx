@@ -2,7 +2,7 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <section className='projects'>
+        <section id='projects' className='projects'>
             <h2>Projects</h2>
         </section>
     );
